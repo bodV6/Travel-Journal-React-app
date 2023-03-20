@@ -1,0 +1,88 @@
+header {
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--open-journal-spread-4);
+  color: var(--open-journal-spread-5);
+  gap: 0.5em;
+  padding: 1rem 0;
+}
+
+.earth-logo-container {
+  /* border: 1px solid red; */
+  /* height: 3rem; */
+  flex-basis: 5%;
+  /* align-self: center; */
+}
+
+.earth-logo {
+  height: 2rem;
+  /* flex-basis: 10%; */
+}
+
+
+.card--list {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.card--container {
+  /* border: 1px solid red; */
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items:center; */
+  max-width: 90%;
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 2px var(--open-journal-spread-2) solid;
+}
+
+.card--image {
+  /* height: 550px; */
+  border: 1px soild blue;
+  flex-basis: 50%;
+}
+
+.card--image img {
+  border-radius: 10px;
+}
+
+.card--info {
+  color: var(--open-journal-spread-4);
+  margin-inline-start: 1rem;
+  flex-basis: 50%;
+}
+
+.pin-icon {
+  display: inline-block;
+  /* height: 1rem; */
+  width: 1rem;
+  /* margin: 0; */
+}
+
+.card--info h3 {
+  display: inline-block;
+  font-size: medium;
+  /* margin-inline-end: 1rem; */
+}
+
+.card--info a {
+  display: inline-block;
+  font-size: medium;
+  color: var(--open-journal-spread-3);
+}
+
+.card--info p {
+  font-size: medium;
+ 
+}
+
+footer {
+  background-color: var(--open-journal-spread-3);
+  color: var(--open-journal-spread-5);
+  text-align: center;
+  text-transform: lowercase;
+  padding-block: 1rem;
+}

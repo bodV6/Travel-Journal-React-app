@@ -1,9 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --open-journal-spread-1: #d9ca9c;
+  --open-journal-spread-2: #f2ead0;
+  --open-journal-spread-3: #735c3f;
+  --open-journal-spread-4: #260b01;
+  --open-journal-spread-5: #f2f2f2;
+
+  --font-size: 1.3rem;
 }
 
+/* Use Board-Box Model */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Handlee", cursive;
+  padding: 0;
+  margin: 0;
+  background-color: var(--open-journal-spread-1);
+  color: var(--open-journal-spread-2);
+  font-size: var(--font-size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 95vh; */
+}
+
+img {
+  /* display: block; */
+  width: 100%;
+}
+
+h1,
+h2,
+h3,p {
+  margin: 0;
+}
